@@ -21,7 +21,7 @@ body {
   margin: 40px 0;
 }
 .card .card__header {
-  background: url("/image-header-mobile.082a3546.jpg") no-repeat;
+  background: url("./image-header-mobile.082a3546.jpg") no-repeat;
   background-size: 100% 100%;
   background-color: #aa5cdb;
   background-blend-mode: multiply;
@@ -82,7 +82,7 @@ body {
     min-width: 80%;
   }
   .card .card__header {
-    background-image: url("/image-header-desktop.ce031c32.jpg");
+    background-image: url("./image-header-desktop.ce031c32.jpg");
     grid-area: header;
     border-radius: 0px 5px 5px 0px;
   }
