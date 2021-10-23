@@ -1,0 +1,15 @@
+@mixin grid() {
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: 150px 150px 150px;
+    grid-template-areas:
+    'card card card card card card header header header header header header'
+    'card card card card card card header header header header header header'
+    'card card card card card card header header header header header header';
+}
+
+@mixin flexLayout($flex-direction, $justify-content) {
+    display: flex;
+    flex-direction: $flex-direction;
+    justify-content:$justify-content; 
+}
